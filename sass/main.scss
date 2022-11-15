@@ -1,0 +1,11 @@
+$backgroundColor: white;
+body {
+    background: $backgroundColor;
+    //background-image: url("../img/tile.jpeg");
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+@import 'book';
+
