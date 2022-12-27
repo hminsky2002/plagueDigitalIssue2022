@@ -1,0 +1,29 @@
+#homeBody{
+  background-image: url("../img/tile.jpeg");
+}
+
+#homeTitle{
+  font-family: "Comic Sans MS";
+  color: yellow;
+  margin:auto;
+  text-align:center;
+}
+
+#homeIntro{
+  font-family: "Comic Sans MS";
+  color: pink;
+  margin:auto;
+  max-width: 600px;
+  text-align:center;
+}
+
+#homeMenu{
+  font-family: "Comic Sans MS";
+  color: red;
+  margin:auto;
+  max-width: 600px;
+  text-align:center;
+  li{
+    font-size:4rem;
+  }
+}
