@@ -5,8 +5,16 @@
 #homeTitle{
   font-family: "Comic Sans MS";
   color: yellow;
-  margin:auto;
+  width:50%;
   text-align:center;
+  display: flex;
+  margin:auto;
+  img{
+    width:200px;
+    height: auto;
+  }
+
+
 }
 
 #homeIntro{
@@ -15,6 +23,7 @@
   margin:auto;
   max-width: 600px;
   text-align:center;
+
 }
 
 #homeMenu{
@@ -26,4 +35,17 @@
   li{
     font-size:4rem;
   }
+}
+
+#bigP{
+  width:50%;
+  margin:auto;
+  max-width: 600px;
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
 }

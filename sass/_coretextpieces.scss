@@ -1,0 +1,36 @@
+.coretextbody{
+  background-image: url("../img/tile.jpeg");
+}
+.ctHeader{
+  border-top:0.5px;
+  border-bottom: 0.5px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  width: 50%;
+  margin-top:50px;
+  h1{
+    color:deepskyblue;
+  }
+}
+
+.ctIntro{
+  font-family: "Times New Roman";
+  color: pink;
+  margin: auto;
+  width: 50%;
+}
+
+.paperWrapper{
+  background-image: url("../img/paper.png ");
+  width:600px;
+
+}
+
+#translation{
+  font-size: 2rem;
+}
