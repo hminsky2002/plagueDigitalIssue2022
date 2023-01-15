@@ -52,7 +52,7 @@ img {
   flex-wrap: wrap;
   list-style: none;
   max-width: 1200px;
-  width:50%;
+  width:600px;
   margin: auto;
   padding: 0;
 }
@@ -61,10 +61,10 @@ img {
   display: flex;
   padding: 1rem;
   @media(min-width: 40rem) {
-    width: 25%;
+    width: 50%;
   }
   @media(min-width: 56rem) {
-    width: 25%;
+    width: 600px;
   }
 }
 
