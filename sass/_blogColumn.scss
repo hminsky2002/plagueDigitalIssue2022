@@ -3,7 +3,7 @@
 // Blog container
 //-------------------------
 .blog-container {
-  background: #fff;
+  background: #fad8dd;
   border-radius: 5px;
   box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
   font-family: "adelle-sans", sans-serif;
@@ -17,7 +17,93 @@
     width: 40rem;
   }
   @media screen and (min-width: 959px) {
-    width: 50rem;
+    width: 70rem;
+    .blog-cover1 {
+      background: url("../img/cardImage1.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover2 {
+      background: url("../img/cardImage2.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover3 {
+      background: url("../img/cardImage3.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover4 {
+      background: url("../img/cardImage4.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover5 {
+      background: url("../img/cardImage5.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover6 {
+      background: url("../img/cardImage6.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover7 {
+      background: url("../img/cardImage7.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover8 {
+      background: url("../img/cardImage8.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover9 {
+      background: url("../img/cardImage9.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-cover10 {
+      background: url("../img/cardImage10.png");
+      background-size: cover;
+      border-radius: 5px 5px 0 0;
+      height: 40rem;
+      box-shadow: inset hsla(0, 0, 0, .2) 0 64px 64px 16px;
+    }
+    .blog-body {
+      margin: 0 auto;
+      width: 80%;
+      height: 20rem;
+    }
+    .blog-title h1 a {
+      color: #333;
+      font-weight: 100;
+      font-size: 5rem;
+    }
+    .blog-summary p {
+      color: lighten(#333, 10%);
+      font-size: 1.5rem;
+
+    }
+
   }
 }
 .blog-container a {
@@ -135,6 +221,7 @@
 .blog-body {
   margin: 0 auto;
   width: 80%;
+  height: 13rem;
 }
 .video-body {
   height: 100%;
@@ -146,6 +233,7 @@
 }
 .blog-summary p {
   color: lighten(#333, 10%);
+
 }
 .blog-tags ul {
   display: flex;
@@ -231,5 +319,12 @@
   width: 24px;
   &:hover {
     fill: #ff4d4d;
+  }
+}
+@media screen and (min-width: 959px) {
+  #marketingPieceCard {
+    .blog-title h1 a {
+      font-size: 4rem;
+    }
   }
 }

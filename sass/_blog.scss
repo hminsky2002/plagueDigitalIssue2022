@@ -21,6 +21,7 @@ html {
   font-weight: 400;
   letter-spacing: 0;
   padding: 1rem;
+  background-color: lightpink;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -149,11 +150,41 @@ img {
 #blogHeader{
   display: flex;
   width:50%;
+  height:80%;
   margin:auto;
+  margin-top: 20px;
+  #blogcoverimage{
+    width: 600px;
+  }
+
 }
 #subtitle{
   width:50%;
   margin:auto;
   font-size:1.8rem;
-  margin-right:300px;
+  color: black;
+  text-align: center;
+}
+
+.blogImage {
+  margin: 48px auto;
+  width: 20rem;
+  @media screen and (min-width: 480px) {
+    width: 28rem;
+  }
+  @media screen and (min-width: 767px) {
+    width: 40rem;
+  }
+  @media screen and (min-width: 959px) {
+    width: 55rem;
+  }
+  img{
+    border: 10px white;
+  }
+
+}
+
+#randlogo{
+  width: 80px;
+
 }
