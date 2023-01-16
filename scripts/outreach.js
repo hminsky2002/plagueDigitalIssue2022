@@ -1,10 +1,35 @@
 
 const bills = ['img/dollarbill.jpeg','img/20dollarbill.jpeg','img/5dollarbill.jpeg','img/10dollarbill.jpeg']
-
+var multiplierDiv = document.getElementById('multiplier')
+var multiplier = 1;
 var total = 0;
 var clicks = 0;
 function moneyTime() {
     clicks +=1
+    if(total >= 500){
+        multiplierDiv.innerHTML = "HOLY MULTIPLIER: ALL YOUR DONATIONS ARE MULTIPLIED BY 5!"
+        multiplier = 5;
+    }
+    if(total >= 1000){
+        multiplierDiv.innerHTML = "HOLIER MULTIPLIER: ALL YOUR DONATIONS ARE MULTIPLIED BY 10!"
+        multiplier = 10;
+    }
+    if(total >= 5000){
+        multiplierDiv.innerHTML = "HOLIER MULTIPLIER: ALL YOUR DONATIONS ARE MULTIPLIED BY 20!"
+        multiplier = 10;
+    }
+    if(total >= 10000){
+        multiplierDiv.innerHTML = "HOLIERER MULTIPLIER: ALL YOUR DONATIONS ARE MULTIPLIED BY 50!"
+        multiplier = 20;
+    }
+    if(total >= 50000){
+        multiplierDiv.innerHTML = "HOLIERERER MULTIPLIER: ALL YOUR DONATIONS ARE MULTIPLIED BY 100!"
+        multiplier = 50;
+    }
+    if(total >= 100000){
+        multiplierDiv.innerHTML = "HOLIEST MULTIPLIER: ALL YOUR DONATIONS ARE MULTIPLIED BY 500! PRAISE PLAUGE GOD"
+        multiplier = 100;
+    }
     var currentTotal = document.getElementById('total');
     var milestone = document.getElementById('milestone')
     var img = new Image();
@@ -21,19 +46,19 @@ function moneyTime() {
         switch(getRndInteger(0,3)) {
             case 0:
                 bill = 0;
-                total += 1;
+                total += 1*multiplier;
                 break;
             case 1:
                 bill = 1;
-                total += 20;
+                total += 20*multiplier;
                 break;
             case 2:
                 bill = 2;
-                total += 5;
+                total += 5*multiplier;
                 break;
             case 3:
                 bill = 3;
-                total += 10;
+                total += 10*multiplier;
                 break;
             default:
             // code block
@@ -114,6 +139,7 @@ function moneyTime() {
     else if(total >= 1000000 ){
         milestone.innerHTML = "You get a gift card to one free steak dinner at any participating Applebee's (Terms and Conditions apply. Donating constitutes permission (except where prohibited by law) to use Patron’s name, images, hometown, likeness, prize won, and photograph (all at Institution’s discretion) for future advertising, publicity in any and all media now or hereafter devised throughout the world in perpetuity, without additional compensation, notification or permission. Charitable Parties and their respective officers, directors, priests, pastors, deacons, rabbis, gods, deities, demi-gods, and idols (collectively, “Released Parties”) are not responsible for lost, late, misdirected, damaged, stolen, altered, garbled, incorrect, incomplete or delayed Entries; all of which will be void. Released Parties are also not responsible for problems related to health or wellness due to consuming undercooked meat which may limit a contestant’s ability to participate in this reward. Released Parties are not responsible for any other errors or malfunctions of any kind, whether network, printing, typographical, human or otherwise relating to or in connection with the Donation, including, without limitation, errors or malfunctions which may occur in connection with the administration of the Donation. Sponsor reserves the right at its sole discretion to disqualify any individual (and void his/her Entries)) it finds to not be worthy personality-wise of such a reward, or if the Donor is found to be intending to annoy, abuse, threaten or harass any other donor, Institution, or any of its representatives or to otherwise be acting in violation of these Official Rules. CAUTION: Any attempt by a Hater to deliberately damage any website or undermine the legitimate operations of the Donation is a violation of criminal and civil laws. Should such an attempt be made, the Sponsor reserves the right to seek damages from any such contestant to the fullest extent permitted by the law and publicly shame Donor in the town square."
     }
+
 }
 
 function getRndInteger(min, max) {

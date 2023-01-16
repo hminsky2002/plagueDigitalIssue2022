@@ -4,6 +4,7 @@
 
 #homeTitle{
   font-family: "Comic Sans MS";
+  font-size:1.8rem;
   color: yellow;
   width:50%;
   text-align:center;
@@ -23,6 +24,7 @@
   margin:auto;
   max-width: 600px;
   text-align:center;
+  font-size: 1.8rem;
 
 }
 
@@ -40,12 +42,34 @@
 #bigP{
   width:50%;
   margin:auto;
-  max-width: 600px;
+  max-width: 800px;
   img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 200%;
   }
 
 }
+#credits{
+  font-family: "Comic Sans MS";
+  color: pink;
+  margin:auto;
+  max-width: 600px;
+  text-align:center;
+  h2{
+    color: #e30b0b;
+  }
+  h1{
+    color: #1bffff;
+  }
+  h3{
+    font-size: 1.7rem;
+    color: Yellow;
+  }
+  ul{
+    list-style-type: none;
+  }
+}
+
+

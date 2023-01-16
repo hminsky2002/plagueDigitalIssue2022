@@ -34,3 +34,25 @@
 #translation{
   font-size: 2rem;
 }
+
+
+/* The element to apply the animation to */
+#test {
+  position: relative;
+  cursor: pointer;
+}
+.pennewrapper{
+  display:flex
+}
+.rain{
+  max-width:50px;
+}
+#col1{
+  max-width: 100px;
+}
+#col3{
+  max-width: 100px;
+}
+.pgod{
+  width:600px;
+}
